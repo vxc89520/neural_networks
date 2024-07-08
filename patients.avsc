@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "Patients",
+  "fields": [
+    {
+      "name": "Patients",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "Patient",
+          "fields": [
+            { "name": "PatientID", "type": "int" },
+            { "name": "FirstName", "type": "string" },
+            { "name": "LastName", "type": "string" },
+            { "name": "BirthDate", "type": "string" },
+            { "name": "Gender", "type": "string" },
+            { "name": "PhoneNumber", "type": "string" }
+          ]
+        }
+      }
+    }
+  ]
+}
